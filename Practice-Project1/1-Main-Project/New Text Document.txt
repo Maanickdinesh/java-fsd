@@ -1,0 +1,8 @@
+1. Print "Enter an email address: "
+2. Read user input into email
+3. Define regex as "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+4. Compile the pattern using Pattern.compile(regex) and assign to pattern variable
+5. Create a matcher object using matcher() method of pattern object with email as input
+6. Use matches() method of the matcher object to match email against the pattern
+7. If the email matches the pattern, Print "Valid email address."
+8. If the email does not match the pattern, Print "Invalid email address. Please check your mail id."
