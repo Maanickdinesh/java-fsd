@@ -21,6 +21,7 @@ Phase-1 Practice Project: Assisted Practice
 10.Writing a program in Java to verify implementations of regular expressions.
 
 Phase-1 Practice Project2: Assisted Practice
+
 1.Write a program in Java to create a thread by extending the ‘Thread’ class and by implementing the “Runnable” interface
 
 2.Write a program in Java to demonstrate sleep() and wait()
