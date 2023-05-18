@@ -26,6 +26,7 @@ Phase-1 Practice Project - 2: Assisted Practice
 
 2.Write a program in Java to demonstrate sleep() and wait()
 
+
 3.Write a program in Java to demonstrate synchronization
 
 4.Write a program in Java to demonstrate try and catch
@@ -65,3 +66,27 @@ S.N
 Phase-1 Practice Project 
 
 1.Longest Increasing Subsequence.
+
+Phase-1 Practice Project 4: Assisted Practice
+
+1.Writing a program in Java implementing the linear search algorithm
+
+2.Writing a program in Java implementing the binary search algorithm
+
+3.Writing a program in Java implementing the exponential search algorithm
+
+4.Writing a program in Java implementing the selection sort algorithm
+
+5.Writing a program in Java implementing the bubble sort algorithm
+
+6.Writing a program in Java implementing the insertion sort algorithm
+
+7.Writing a program in Java implementing the merge sort algorithm
+
+8.Writing a program in Java implementing the quick sort algorithm
+
+S.N
+
+Phase-1 Practice Project
+
+1.Fix Bugs of the Application.
