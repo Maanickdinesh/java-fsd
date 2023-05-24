@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>FilterDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DashboardServlet</display-name>
+    <servlet-name>DashboardServlet</servlet-name>
+    <servlet-class>DashboardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DashboardServlet</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>InfoServlet</display-name>
+    <servlet-name>InfoServlet</servlet-name>
+    <servlet-class>InfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InfoServlet</servlet-name>
+    <url-pattern>/info</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ProfileServlet</display-name>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>Filter1</filter-name>
+  	<filter-class>Filter1</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>Filter1</filter-name>
+  	<url-pattern>/profile</url-pattern>
+  	<url-pattern>/dashboard</url-pattern>
+  </filter-mapping>
+</web-app>
