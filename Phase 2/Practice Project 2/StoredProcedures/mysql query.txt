@@ -1,0 +1,43 @@
+create database Products;
+use Products;
+create table product(
+  id INT PRIMARY KEY,
+  name VARCHAR(255),
+  description VARCHAR(255),
+  price DOUBLE
+);
+show tables;
+INSERT INTO product (id, name, description, price) VALUES
+(101, 'iPhone 12', 'Flagship smartphone by Apple', 999.99),
+(102, 'Samsung Galaxy S21', 'Premium Android phone by Samsung', 899.99),
+(103, 'Google Pixel 5', 'High-end Android phone by Google', 799.99),
+(104, 'OnePlus 9 Pro', 'Powerful smartphone by OnePlus', 899.99),
+(105, 'Xiaomi Mi 11', 'Feature-rich phone by Xiaomi', 699.99),
+(106, 'Huawei P40 Pro', 'Top-tier Android phone by Huawei', 899.99),
+(107, 'Sony Xperia 1 III', 'Premium Xperia phone by Sony', 1099.99),
+(108, 'LG Velvet', 'Stylish smartphone by LG', 599.99),
+(109, 'Motorola Edge+', 'Flagship device by Motorola', 799.99),
+(1010, 'Nokia 8.3', 'Sleek phone by Nokia', 499.99);
+select * from product;
+
+
+
+
+DELIMITER //
+
+CREATE PROCEDURE InsertProduct(
+    IN p_id INT,
+    IN p_name VARCHAR(255),
+    IN p_description VARCHAR(255),
+    IN p_price DECIMAL(10,2)
+)
+BEGIN
+    INSERT INTO product (id, name, description, price)
+    VALUES (p_id, p_name, p_description, p_price);
+END //
+
+DELIMITER ;
+
+
+
+call products.InsertProduct(121, 'micromax', 'made in india', 978.0);
