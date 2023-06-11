@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1>File Upload</h1>
+
+    <!-- Display success or error message -->
+    <p th:text="${message}"></p>
+
+    <!-- Display list of uploaded files -->
+    <h2>Uploaded Files</h2>
+    <ul>
+        <li th:each="file : ${uploadedFiles}">
+            <span th:text="${file}"></span>
+            <!-- Add download link for each file -->
+            <a th:href="@{/download/{filename}(filename=${file})}">Download</a>
+        </li>
+    </ul>
+
+    <!-- File upload form -->
+    <h2>Upload File</h2>
+    <form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required/>
+        <button type="submit">Upload</button>
+    </form>
+
+</body>
+</html>
