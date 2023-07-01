@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Bootstrap Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bootstrap Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+          <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+          <label class="form-check-label" for="female">Female</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="interests">Interests</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="music" value="music">
+          <label class="form-check-label" for="music">Music</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="sports" value="sports">
+          <label class="form-check-label" for="sports">Sports</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="reading" value="reading">
+          <label class="form-check-label" for="reading">Reading</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select class="form-control" id="country">
+          <option value="">Select a country</option>
+          <option value="us">United States</option>
+          <option value="au">India</option>
+          <option value="ca">Canada</option>
+          <option value="uk">United Kingdom</option>
+          <option value="au">Australia</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
