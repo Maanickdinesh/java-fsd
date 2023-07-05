@@ -1,0 +1,33 @@
+create database Register;
+USE register;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  email VARCHAR(255),
+  password VARCHAR(255),
+  dob DATE
+);
+select *from users;
+CREATE TABLE admin (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+INSERT INTO admin (email, password)
+VALUES ('admin@gmail.com', 'admin');
+CREATE TABLE sql_question (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    question VARCHAR(255),
+    option1 VARCHAR(255),
+    option2 VARCHAR(255),
+    option3 VARCHAR(255),
+    option4 VARCHAR(255),
+    correctOption VARCHAR(255)
+);
+
+
+
+
+select * from sql_question ;
+
