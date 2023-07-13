@@ -1,0 +1,51 @@
+<div class="container">
+    <h1>Directive Demo</h1>
+    <h2>Structural Directive</h2>
+    <h3>1.ngFor Directive</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--ngFor Directive-->
+            <tr *ngFor="let p of products">
+                <td>{{p.name}}</td>
+                <td>{{p.email}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>2.ngIf Directive</h3>
+    <button class="btn btn-primary" (click)="show()">Show Div</button>
+    <div *ngIf="flag" style="background-color: orange">
+        Congratulations!! You have Successfully implemented ngIf Directive</div>
+
+    <h2>3.ngSwitch Directive</h2>
+    <div [ngSwitch]="day">
+        <div *ngSwitchCase=0>
+            Today is Sunday
+        </div>
+        <div *ngSwitchCase=1>
+            Today is Monday
+        </div>
+        <div *ngSwitchCase=2>
+            Today is Tuesday
+        </div>
+        <div *ngSwitchCasw=3>
+            Today is Wednesday
+        </div>
+        <div *ngSwitchCase=4>
+            Today is Thursday
+        </div>
+        <div *ngSwitchCase=5>
+            Today is Friday
+        </div>
+        <div *ngSwitchCase="6">
+            Today is Saturday
+        </div>
+        <h2 changecolor>CUSTOM Directive</h2>
+        <h2 highlight>CUSTOM Directive using Rendred2</h2>
+    </div>
+</div>
