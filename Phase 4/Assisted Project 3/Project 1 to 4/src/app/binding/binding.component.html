@@ -1,0 +1,51 @@
+<h1>Print JSON Data</h1>
+
+<br>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--implementing class Binding-->
+        <!--NgDirective eg: *ngFor-->
+        <tr *ngFor="let p of products">
+            <td [class.inStock]="true">{{p.name}}</td>
+            <!--implementing style binding-->
+            <!-- Binding color and font-weight style-->
+            <td [style.color]="'#306A9D'" [style.font-weight]="700">{{p.price}}</td>
+            <td>{{p.available}}</td>
+            <!--applying conditional css using style binding-->
+            <td [style.color]="+p.ratings > 4.7 ?'green':'red'" [style.font-size.px]="16" [style.font-weight]="700">
+                {{p.ratings}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h2>Let's Bind the data from source to view using Interpolation</h2>
+
+<hr>
+
+
+<p>{{name}}</p>
+
+<!--Property Bindings-->
+
+<h2>Let's Bind the data from source to view using property Binding: [] : bind the data with attribute</h2>
+
+<a [href]="url">Connect To Google</a>
+<br>
+<hr>
+
+<div class="container">
+    <button class="btn btn-primary" (click)="show()">Show Div</button>
+
+    <div *ngIf="flag" style="background-color: yellowgreen;">
+        This is My Div and You Have Successfully Implememneted EVENT BINDING
+    </div>
+</div>

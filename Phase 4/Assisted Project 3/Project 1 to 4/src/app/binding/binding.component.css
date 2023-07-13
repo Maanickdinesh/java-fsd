@@ -1,0 +1,9 @@
+.inStock {
+  background-color: rgb(163, 213, 249);
+  color: white;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: "products.price>15?'red':'green'";
+}
