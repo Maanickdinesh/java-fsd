@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-20T08:33:32 IST" name="Default suite" finished-at="2023-07-20T08:33:53 IST" duration-ms="21608">
+    <groups>
+    </groups>
+    <test started-at="2023-07-20T08:33:32 IST" name="Default test" finished-at="2023-07-20T08:33:53 IST" duration-ms="21608">
+      <class name="Testng.Testng.CombinedTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:32 IST" name="beforeMethod" finished-at="2023-07-20T08:33:33 IST" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCartTest()[pri:1, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:33 IST" name="addToCartTest" finished-at="2023-07-20T08:33:35 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:35 IST" name="afterMethod" finished-at="2023-07-20T08:33:35 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:35 IST" name="beforeMethod" finished-at="2023-07-20T08:33:35 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="googleSearchTest()[pri:2, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:35 IST" name="googleSearchTest" finished-at="2023-07-20T08:33:40 IST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:40 IST" name="afterMethod" finished-at="2023-07-20T08:33:40 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:40 IST" name="beforeMethod" finished-at="2023-07-20T08:33:41 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:3, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:41 IST" name="loginTest" finished-at="2023-07-20T08:33:42 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:42 IST" name="afterMethod" finished-at="2023-07-20T08:33:42 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:42 IST" name="beforeMethod" finished-at="2023-07-20T08:33:43 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registrationTest()[pri:4, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:43 IST" name="registrationTest" finished-at="2023-07-20T08:33:53 IST" duration-ms="10030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testng.Testng.CombinedTests@48aca48b]" started-at="2023-07-20T08:33:53 IST" name="afterMethod" finished-at="2023-07-20T08:33:53 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testng.Testng.CombinedTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
