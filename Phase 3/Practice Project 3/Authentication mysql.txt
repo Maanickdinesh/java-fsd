@@ -1,0 +1,10 @@
+create database userauth;
+use userauth;
+CREATE TABLE user (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+INSERT INTO user (name, email, password) VALUES ('admin', 'admin@gmail.com', 'admin123');
+select *from user;
